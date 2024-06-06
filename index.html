@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class</title>
+    <style>
+        body{
+            background-color: rgb(209, 52, 83);
+            text-align: center;
+        }
+        div{
+            background-color: rgb(251, 219, 177);
+            margin: 0;
+            padding: 0;
+            border-radius: 15px;
+            
+        }
+        h1{
+            text-shadow: 1px 1px 1px rgba(253, 252, 252, 0.814);
+        }
+        h2{
+            color: rgb(218, 3, 3);
+
+        }
+        button{
+            margin-top: 10px;
+            border-radius: 10px;
+            padding: 5px;
+            font-weight: bold;
+            font-family: 'Times New Roman', Times, serif;
+            margin-bottom: 5px;
+            background-color: rgb(182, 242, 254);
+
+        }
+        button:hover{
+            box-shadow: 2px 2px grey;
+        }
+        p{
+            
+            font-weight: bold;
+        }
+        div{
+            box-shadow: 2px 2px rgb(40, 35, 35);
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <h1>Guess your faourite flower--</h1>
+<h2>Enjoy your vaccation by playing this game.</h2>
+
+<p></p>
+
+<button id="myBtn1">Choice 1</button>
+<button id="myBtn2">Choice 2</button>
+<button id="myBtn3">Choice 3</button>
+<button id="myBtn4">Choice 4</button>
+<button id="myBtn5">Choice 5</button>
+
+<p id="demo1"></p><p id="demo2"></p>
+<p id="demo3"></p><p id="demo4"></p>
+</div>
+<script>
+    const element1 = document.getElementById("myBtn1");
+    element1.addEventListener("click", myFunction1);
+    
+    function myFunction1() {
+        alert("you choose ROSE as your favourite flower");
+    }
+    
+    //-----------------------
+    const element2 = document.getElementById("myBtn2");
+    element2.addEventListener("click", myFunction2);
+    
+    function myFunction2() {
+        alert("you choose LILY as your favourite flower");
+    }
+    //-----------------------
+    const element3 = document.getElementById("myBtn3");
+    element3.addEventListener("click", myFunction3);
+    
+    function myFunction3() {
+        alert("you choose LOTUS as your favourite flower");
+    }
+    //-----------------------
+    const element4 = document.getElementById("myBtn4");
+    element4.addEventListener("click", myFunction4);
+    function myFunction4() {
+        alert("you choose HIBISCUS as your favourite flower")
+    }
+
+    const element5 = document.getElementById("myBtn5");
+    element5.addEventListener("click",myFunction5);
+    function myFunction5(){
+        alert("I have no time .")
+    }
+    
+    
+    </script>
+</body>
+</html>
