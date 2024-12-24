@@ -1,1 +1,2 @@
-### this repository is contain 
+### Game __to guess flower_
+
